@@ -1,0 +1,109 @@
+.quran-page {
+  margin: 0 auto;
+  width: 450px;
+  text-align: justify;
+  background-color: white;
+  color: black;
+}
+
+.app-container {
+  display: flex;
+  color: black;
+  font-size: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.page-list {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  overflow-y: auto;
+  width: 200px;
+  float: left;
+  color: black;
+}
+
+.page-number {
+  cursor: pointer;
+  padding: 5px;
+  margin: 2px 0;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.page-number.active {
+  background-color: #007bff;
+  color: #fff;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sura-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #4a90e2;
+}
+
+/*Mstakes*/
+.mistakesfield {
+  height: 500px;
+  border: solid 1px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 30px 40px;
+}
+.popover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popover-table-container td {
+  text-align: center;
+}
+
+.popover-table-container th {
+  text-align: center;
+}
+
+.popover-table-container thead th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.ant-popover-title {
+  text-align: center;
+}
+.popover-table-container tbody tr td {
+  vertical-align: middle;
+}
+
+.spin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

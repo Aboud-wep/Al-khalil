@@ -1,0 +1,162 @@
+body {
+  background-color: #191c1b;
+  height: 100vh;
+  margin: 0;
+  /* font-family: "Amiri"; */
+  color: black;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.section {
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  color: white;
+  margin-top: 50px;
+}
+
+.img {
+  width: 90px;
+  height: 90px;
+  clip-path: circle();
+  margin-bottom: 20px;
+}
+
+.first {
+  background-color: #307b6d;
+  border-radius: 25px;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 10px;
+}
+
+span {
+  font-weight: 900;
+}
+
+.second {
+  color: white;
+  font-size: 25px;
+  text-justify: auto;
+}
+
+button {
+  background-color: #ffffff;
+  color: #191c1b;
+  border: none;
+  padding: 4px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #307b6d;
+  border-radius: 25px;
+  margin-top: 70px;
+  color: white;
+  font-size: 18px;
+  /* font-family: "Amiri"; */
+}
+
+button:hover {
+  background-color: white;
+  color: #307b6d;
+}
+
+/* Header */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+div .Link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Link:hover {
+  background-color: #111;
+}
+
+.Link:focus {
+  background-color: #04aa6d;
+}
+/* Login */
+.formdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #191c1b;
+  padding: 20px;
+}
+
+.formdiv form {
+  background-color: #307b6d;
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formdiv label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #191c1b;
+}
+
+.formdiv input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formdiv button {
+  background-color: #191c1b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.formdiv button:hover {
+  background-color: white;
+  color: #191c1b;
+}
+/*Error*/
+.Error{
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px 6px;
+}
